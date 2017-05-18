@@ -1,0 +1,35 @@
+table {
+  border-collapse: separate;
+  width: 80%;
+  border: 1px solid #666666;
+}
+thead {
+  background: #cccccc;
+  font: 75%/8 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;  
+}
+tbody {
+  background: #e9ffe0;
+  font: 75%/1 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+tr:nth-child(even) {
+    background-color: #6da376;
+}
+th {
+  font-weight: bold;
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+th, td {
+  padding: 10px 10px;
+}
+.leftalign {
+  text-align: left;
+} 
+img {
+  max-width: 60px;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+}
